@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://example.com/shire-background.jpg');
+    background-size: cover;
+    font-family: 'Garamond', serif;
+    color: #fff8dc;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: gray;
+    margin: 100px auto;
+    padding: 20px;
+    width: 80%;
+    border: 2px solid #8B4513;
+    border-radius: 10px;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+    text-shadow: 2px 2px #000;
+    margin left: 100px;
+    font-family: cursive;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 5px;
+    text-shadow: 1px 1px #000;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 1px solid #8B4513;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p, ul {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "•";
+    color: #DAA520;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+footer p {
+    font-size: 1em;
+    margin-top: 30px;
+    text-shadow: 1px 1px #000;
+}
+head {background-color: grey;}
